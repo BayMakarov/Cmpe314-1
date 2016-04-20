@@ -253,7 +253,7 @@
 (output-reverse-polish ( cal-add ( cal-mult ( cal-num 3) ( cal-num 4)) ( cal-num 9)))
 (output-reverse-polish ( cal-mult ( cal-num 3) ( cal-add ( cal-num 4) ( cal-num 9))))
 
-"Parser -> reverse polish output" 
+"Parser -> reverse polish output " 
 (output-reverse-polish (parse-prefix '(+ 99 (* 5 8))))
 "Parser -> evaluation" 
 (eval (parse-prefix '(+ 99 (* 5 8))))
